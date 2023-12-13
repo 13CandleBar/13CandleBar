@@ -34,8 +34,6 @@ export async function generateStaticParams({
     return { lang: lang, category: category.slug };
   });
 
-  console.log(staticParams);
-
   return staticParams;
 }
 
