@@ -1,0 +1,17 @@
+{
+  "productpage": {
+    "back": "Назад",
+    "product_description": {
+      "amount": "Вміст",
+      "aroma": "Аромат",
+      "notes": "Ноти",
+      "sweetness": "Солодкість",
+      "astringency": "Терпкість",
+      "freshness": "Свіжість",
+      "add": "Додати у кошик",
+      "purchase": "Оформити покупку",
+      "quantity": "К-сть",
+      "pieces": "шт"
+    }
+  }
+}

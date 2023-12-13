@@ -1,0 +1,231 @@
+{
+  "common": {
+    "header": {
+      "sidePanelMenu": {
+        "openPanelBtnAriaText": "Sidebar open button",
+        "closePanelBtnAriaText": "Sidebar close button"
+      },
+      "mobileMenu": {
+        "openMenuBtnAriaText": "Mobile menu open button",
+        "closeMenuBtnAriaText": "Mobile menu close button"
+      },
+      "nav": [
+        {
+          "name": "Catalog",
+          "href": "catalog"
+        },
+        {
+          "name": "About Us",
+          "href": "about"
+        }
+      ],
+      "toHomePage": {
+        "name": "To Home Page",
+        "href": "/"
+      },
+      "logoAriaLabelText": "Link with company logo",
+      "forBusinessBtnText": "For Business",
+      "languageButtonText": "Укр",
+      "basketAriaLabel": "Open cart button",
+      "basketTitle": "Cart"
+    },
+    "footer": {
+      "logoAriaLabelText": "Link with company logo",
+      "contacts": [
+        {
+          "href": "tel:380966802151",
+          "icon": "phone",
+          "text": "38 (096) 680 21 51"
+        },
+        {
+          "href": "mailto:13candlebar@gmail.com",
+          "icon": "email",
+          "text": "13candlebar@gmail.com"
+        }
+      ],
+      "nav_text": "Navigation",
+      "nav": [
+        {
+          "name": "Catalog",
+          "href": "catalog"
+        },
+        {
+          "name": "About us",
+          "href": "about"
+        }
+      ],
+      "basketText": "Basket",
+      "forBusinessBtnText": "For Business",
+      "social_text": "Social networks",
+      "social": [
+        {
+          "href": "https://www.instagram.com/13.candle.bar/",
+          "icon": "instagram",
+          "text": "Instagram"
+        },
+        {
+          "href": "https://t.me/+380966802151",
+          "icon": "telegram",
+          "text": "Telegram"
+        }
+      ],
+      "soft_ryzen": {
+        "made": "Made by",
+        "name": "SoftRyzen",
+        "href": "https://softryzen.com/"
+      }
+    },
+    "orderModal": {
+      "buttons": {
+        "cartBtnText": "Cart",
+        "cartBtnAriaLabel": "Open cart button",
+        "addToCartBtn": "Add to cart",
+        "addToCartSuccessText": "The product has been added to the cart",
+        "makeOrderBtn": "Make a purchase"
+      },
+      "title": "Placing an order",
+      "titleCart": "Cart",
+      "emptyBasketText": {
+        "subtitle": "There are no products added to the cart.",
+        "tip": "Add the product you want to buy to the cart."
+      },
+      "orderCard": {
+        "cardTitle": "Your order",
+        "productTitle": "Product name",
+        "qty": "Quantity",
+        "aromaText": "Aroma",
+        "capacityText": "Capacity",
+        "amountText": "Amount",
+        "totalPriceText": "Total",
+        "deleteProductBtn": "Remove product",
+        "increaseQtyBtn": "Increase quantity",
+        "decreaseQtyBtn": "Decrease quantity",
+        "sum": "Sum",
+        "arias": {
+          "addOne": "Button to add one product unit",
+          "delOne": "Button to delete one product unit",
+          "delete": "Product removal button"
+        }
+      },
+      "orderForm": {
+        "title": "Fill in the details",
+        "nameLabel": "Your name",
+        "phoneLabel": "Your phone",
+        "submitOrderBtn": "Make an order"
+      }
+    },
+    "catalog": {
+      "home_title": "Catalog",
+      "product_title": "View the catalog",
+      "subtitle": "Select the product category that interests you",
+      "categories": [
+        {
+          "id": "7",
+          "attributes": {
+            "title": "Aroma Candles",
+            "sequence_number": 1,
+            "image": {
+              "image_description": " two candles",
+              "photo": {
+                "data": {
+                  "attributes": {
+                    "url": "https://res.cloudinary.com/dmt2zcdrl/image/upload/v1698411669/aromacandle_2x_8154222f73.webp"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "3",
+          "attributes": {
+            "title": "Aroma diffusers ",
+            "sequence_number": 2,
+            "image": {
+              "image_description": "  a small bottle and sticks",
+              "photo": {
+                "data": {
+                  "attributes": {
+                    "url": "https://res.cloudinary.com/dmt2zcdrl/image/upload/v1698258914/aromadiffuzor_2x_72dba9ce13.webp"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "5",
+          "attributes": {
+            "title": "Incense (aroma sticks)",
+            "sequence_number": 3,
+            "image": {
+              "image_description": " two aroma sticks",
+              "photo": {
+                "data": {
+                  "attributes": {
+                    "url": "https://res.cloudinary.com/dmt2zcdrl/image/upload/v1698258914/pakhoshchi_2x_e1db8e072e.webp"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "9",
+          "attributes": {
+            "title": "Accessories",
+            "sequence_number": 4,
+            "image": {
+              "image_description": " two candles",
+              "photo": {
+                "data": {
+                  "attributes": {
+                    "url": "https://res.cloudinary.com/dmt2zcdrl/image/upload/v1698660923/accessories_2x_2b4fe9e4ff.webp"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "1",
+          "attributes": {
+            "title": "Sets",
+            "sequence_number": 5,
+            "image": {
+              "image_description": " flowers and a small bottle",
+              "photo": {
+                "data": {
+                  "attributes": {
+                    "url": "https://res.cloudinary.com/dmt2zcdrl/image/upload/v1698660923/sets_2x_c2e102dd5e.webp"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "12",
+          "attributes": {
+            "title": "оther",
+            "sequence_number": 6,
+            "image": {
+              "image_description": "fragrant tree",
+              "photo": {
+                "data": {
+                  "attributes": {
+                    "url": "https://res.cloudinary.com/dmt2zcdrl/image/upload/v1698258914/different_2x_e44ca7a749.webp"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "serviceError": {
+        "subtitle": "The service is temporarily unavailable",
+        "tip": "Please try again later"
+      }
+    }
+  }
+}

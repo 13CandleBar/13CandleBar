@@ -1,0 +1,53 @@
+{
+  "homepage": {
+    "hero": {
+      "hiddenTitle": "13 candle bar",
+      "banners": [
+        {
+          "image_description": "fragrant smoke",
+          "photo": {
+            "data": {
+              "attributes": {
+                "url": "/images/homepage/hero/1.webp"
+              }
+            }
+          }
+        },
+        {
+          "image_description": "burning candle",
+          "photo": {
+            "data": {
+              "attributes": {
+                "url": "/images/homepage/hero/2.webp"
+              }
+            }
+          }
+        },
+        {
+          "image_description": "aromatic candles",
+          "photo": {
+            "data": {
+              "attributes": {
+                "url": "/images/homepage/hero/4.webp"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "title": "About Us",
+      "image": {
+        "src": "/images/homepage/about/about@2x.webp",
+        "alt": "Image of workshop 13 candle bar"
+      },
+      "content": [
+        "13 Candle Bar is a family workshop of aromas and coziness. Our small factory is located in the Kyiv region and specializes in the production of aroma diffusers, scented candles, candles in pots, and other comfort items.",
+        "Our customers choose us because of our high-quality service, use of only natural and top-quality materials and components, premium aromas, and good value for money. We can also make both wholesale and corporate orders with the development of products under the existing brand.",
+        "A new direction for us has become the aromatization of premises. After all, we understand that it is important for businesses to make customers fall in love with themselves, creating a pleasant impression with the help of aromas.",
+        "Don't hesitate to contact us or ask questions. We will gladly introduce you to the universe of comfort and pleasant aromas at 13 Candle Bar."
+      ],
+      "button": "Catalog"
+    }
+  }
+}

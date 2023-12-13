@@ -1,0 +1,231 @@
+{
+  "common": {
+    "header": {
+      "sidePanelMenu": {
+        "openPanelBtnAriaText": "Кнопка відкриття бічної панелі",
+        "closePanelBtnAriaText": "Кнопка закриття бічної панелі"
+      },
+      "mobileMenu": {
+        "openMenuBtnAriaText": "Кнопка відкриття мобільного меню",
+        "closeMenuBtnAriaText": "Кнопка закриття мобільного меню"
+      },
+      "nav": [
+        {
+          "name": "Каталог",
+          "href": "catalog"
+        },
+        {
+          "name": "Про Нас",
+          "href": "about"
+        }
+      ],
+      "toHomePage": {
+        "name": "На Головну",
+        "href": "/"
+      },
+      "logoAriaLabelText": "Посилання із логотипом компанії",
+      "forBusinessBtnText": "Для Бізнесу",
+      "languageButtonText": "Eng",
+      "basketAriaLabel": "Кнопка відкриття корзини",
+      "basketTitle": "Кошик"
+    },
+    "footer": {
+      "logoAriaLabelText": "Посилання із логотипом компанії",
+      "contacts": [
+        {
+          "href": "tel:380966802151",
+          "icon": "phone",
+          "text": "38 (096) 680 21 51"
+        },
+        {
+          "href": "mailto:13candlebar@gmail.com",
+          "icon": "email",
+          "text": "13candlebar@gmail.com"
+        }
+      ],
+      "nav_text": "Навігація",
+      "nav": [
+        {
+          "name": "Каталог",
+          "href": "catalog"
+        },
+        {
+          "name": "Про нас",
+          "href": "about"
+        }
+      ],
+      "basketText": "Кошик",
+      "forBusinessBtnText": "Для Бізнесу",
+      "social_text": "Соціальні мережі",
+      "social": [
+        {
+          "href": "https://www.instagram.com/13.candle.bar/",
+          "icon": "instagram",
+          "text": "Instagram"
+        },
+        {
+          "href": "https://t.me/+380966802151",
+          "icon": "telegram",
+          "text": "Telegram"
+        }
+      ],
+      "soft_ryzen": {
+        "made": "Made by",
+        "name": "SoftRyzen",
+        "href": "https://softryzen.com/"
+      }
+    },
+    "orderModal": {
+      "buttons": {
+        "cartBtnText": "Кошик",
+        "cartBtnAriaLabel": "Кнопка відкриття кошика",
+        "addToCartBtn": "Додати у кошик",
+        "addToCartSuccessText": "Додано в кошик",
+        "makeOrderBtn": "Оформити покупку"
+      },
+      "title": "Оформлення замовлення",
+      "titleCart": "Кошик",
+      "emptyBasketText": {
+        "subtitle": "У кошику немає доданих товарів.",
+        "tip": "Додайте товар, який ви хочете придбати, у кошик."
+      },
+      "orderCard": {
+        "cardTitle": "Ваше замовлення",
+        "productTitle": "Назва товару",
+        "qty": "Кількість",
+        "aromaText": "Аромат",
+        "capacityText": "Вміст",
+        "amountText": "Кількість",
+        "totalPriceText": "Разом до сплати",
+        "deleteProductBtn": "Видалити продукт",
+        "increaseQtyBtn": "Збільшити кількість",
+        "decreaseQtyBtn": "Зменшити кількість",
+        "sum": "Сума",
+        "arias": {
+          "addOne": "Кнопка додавання ще однієї одиниці товару",
+          "delOne": "Кнопка видалення однієї одиниці товару",
+          "delete": "Кнопка видалення товару"
+        }
+      },
+      "orderForm": {
+        "title": "Заповніть реквізити",
+        "nameLabel": "Ваше імʼя",
+        "phoneLabel": "Ваш телефон",
+        "submitOrderBtn": "Оформити замовлення"
+      }
+    },
+    "catalog": {
+      "home_title": "Каталог",
+      "product_title": "Переглянути каталог",
+      "subtitle": "Оберіть категорію товарів, яка вас цікавить",
+      "categories": [
+        {
+          "id": "8",
+          "attributes": {
+            "title": "Аромасвічки",
+            "sequence_number": 1,
+            "image": {
+              "image_description": "дві свічки",
+              "photo": {
+                "data": {
+                  "attributes": {
+                    "url": "https://res.cloudinary.com/dmt2zcdrl/image/upload/v1698411669/aromacandle_2x_8154222f73.webp"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "4",
+          "attributes": {
+            "title": "Аромадифузори",
+            "sequence_number": 2,
+            "image": {
+              "image_description": "невелика пляшечка та палички",
+              "photo": {
+                "data": {
+                  "attributes": {
+                    "url": "https://res.cloudinary.com/dmt2zcdrl/image/upload/v1698258914/aromadiffuzor_2x_72dba9ce13.webp"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "6",
+          "attributes": {
+            "title": "Пахощі (аромапалички)",
+            "sequence_number": 3,
+            "image": {
+              "image_description": "дві аромапалички",
+              "photo": {
+                "data": {
+                  "attributes": {
+                    "url": "https://res.cloudinary.com/dmt2zcdrl/image/upload/v1698258914/pakhoshchi_2x_e1db8e072e.webp"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "10",
+          "attributes": {
+            "title": "Аксесуари",
+            "sequence_number": 4,
+            "image": {
+              "image_description": "дві свічки",
+              "photo": {
+                "data": {
+                  "attributes": {
+                    "url": "https://res.cloudinary.com/dmt2zcdrl/image/upload/v1698660923/accessories_2x_2b4fe9e4ff.webp"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "2",
+          "attributes": {
+            "title": "Набори",
+            "sequence_number": 5,
+            "image": {
+              "image_description": "квіти та маленька пляшечка",
+              "photo": {
+                "data": {
+                  "attributes": {
+                    "url": "https://res.cloudinary.com/dmt2zcdrl/image/upload/v1698660923/sets_2x_c2e102dd5e.webp"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "11",
+          "attributes": {
+            "title": "Різне",
+            "sequence_number": 6,
+            "image": {
+              "image_description": " запашне дерево",
+              "photo": {
+                "data": {
+                  "attributes": {
+                    "url": "https://res.cloudinary.com/dmt2zcdrl/image/upload/v1698258914/different_2x_e44ca7a749.webp"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "serviceError": {
+        "subtitle": "Сервіс тимчасово недоступний",
+        "tip": "Спробуйте, будь ласка, пізніше"
+      }
+    }
+  }
+}
