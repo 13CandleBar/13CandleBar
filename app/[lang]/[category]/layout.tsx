@@ -1,4 +1,4 @@
-import { fetchSlugs } from '@/api/fetchSlugs';
+import { fetchSlugs } from '@/cmsFunctions/fetchSlugs';
 
 import { Locale } from '@/i18n.config';
 

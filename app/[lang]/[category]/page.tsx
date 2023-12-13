@@ -4,9 +4,9 @@ import { ProductsSection } from '@/sections/category/ProductsSection';
 
 import { createMetadata } from '@/utils';
 import { getDictionary } from '@/lib/dictionary';
-import { fetchSlugs } from '@/api/fetchSlugs';
-import { fetchProducts } from '@/api/fetchProducts';
-import { fetchCategories } from '@/api/fetchCategories';
+import { fetchSlugs } from '@/cmsFunctions/fetchSlugs';
+import { fetchProducts } from '@/cmsFunctions/fetchProducts';
+import { fetchCategories } from '@/cmsFunctions/fetchCategories';
 
 import type { Locale } from '@/i18n.config';
 

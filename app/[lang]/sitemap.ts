@@ -1,4 +1,4 @@
-import { fetchAllSlugs } from '@/api/fetchAllSlugs';
+import { fetchAllSlugs } from '@/cmsFunctions/fetchAllSlugs';
 
 import { i18n } from '@/i18n.config';
 

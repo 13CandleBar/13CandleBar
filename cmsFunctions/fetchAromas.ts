@@ -1,6 +1,6 @@
 import { request } from 'graphql-request';
 
-import { getAromas } from '@/api/requests/getAromas';
+import { getAromas } from '@/cmsFunctions/requests/getAromas';
 
 import { AromasData, AromasDataType } from '@/types/Aromas';
 import { Locale } from '@/i18n.config';

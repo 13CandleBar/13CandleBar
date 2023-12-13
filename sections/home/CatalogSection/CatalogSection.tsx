@@ -1,6 +1,6 @@
 import { CATALOG } from '@/data';
 
-import { fetchCategories } from '@/api/fetchCategories';
+import { fetchCategories } from '@/cmsFunctions/fetchCategories';
 
 import { CatalogSectionProps } from './types';
 

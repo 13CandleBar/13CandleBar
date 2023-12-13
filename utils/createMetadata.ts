@@ -1,7 +1,7 @@
 import { Locale } from '@/i18n.config';
 
-import { fetchCategories } from '@/api/fetchCategories';
-import { fetchProducts } from '@/api/fetchProducts';
+import { fetchCategories } from '@/cmsFunctions/fetchCategories';
+import { fetchProducts } from '@/cmsFunctions/fetchProducts';
 import { getMetadata } from '@/lib/dictionary';
 
 type Args = {

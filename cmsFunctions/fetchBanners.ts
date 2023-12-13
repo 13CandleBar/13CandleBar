@@ -1,6 +1,6 @@
 import { request } from 'graphql-request';
 
-import { getBanners } from '@/api/requests/getBanners';
+import { getBanners } from '@/cmsFunctions/requests/getBanners';
 
 import { BannersData, BannersDataType } from '@/types/Banners';
 

@@ -4,7 +4,7 @@ import { CardSection } from '@/sections/product/CardSection';
 import { CatalogSection } from '@/sections/home/CatalogSection';
 
 import { createMetadata } from '@/utils';
-import { fetchProducts } from '@/api/fetchProducts';
+import { fetchProducts } from '@/cmsFunctions/fetchProducts';
 
 import type { Locale } from '@/i18n.config';
 

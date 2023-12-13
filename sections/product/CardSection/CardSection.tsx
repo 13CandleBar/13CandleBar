@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { ProductSlider } from '@/components/ProductSlider';
 import { ProductInfo } from '@/components/ProductInfo';
 
-import { fetchOneProduct } from '@/api/fetchOneProduct';
-import { fetchAromas } from '@/api/fetchAromas';
+import { fetchOneProduct } from '@/cmsFunctions/fetchOneProduct';
+import { fetchAromas } from '@/cmsFunctions/fetchAromas';
 
 import { getDictionary } from '@/lib/dictionary';
 

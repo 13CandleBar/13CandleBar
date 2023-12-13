@@ -5,7 +5,7 @@ import { Header } from '@/layout/Header';
 import { Footer } from '@/layout/Footer';
 
 import { getDictionary, getMetadata } from '@/lib/dictionary';
-import { fetchInfo } from '@/api/fetchInfo';
+import { fetchInfo } from '@/cmsFunctions/fetchInfo';
 
 import { Locale, i18n } from '@/i18n.config';
 
