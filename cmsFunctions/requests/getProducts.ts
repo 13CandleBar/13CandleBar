@@ -5,13 +5,14 @@ export const getProducts = gql`
     products(
       locale: $locale
       filters: { category: { slug: { eq: $category } } }
-      sort: "id:desc"
-      pagination: { limit: 100 }
+      sort: "updatedAt:desc"
+      pagination: { limit: 1000 }
     ) {
       data {
         id
         attributes {
           title
+          updatedAt
           slug
           price
           description
