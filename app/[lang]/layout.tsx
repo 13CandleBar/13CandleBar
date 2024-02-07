@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { Montserrat, Raleway } from 'next/font/google';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 import { Header } from '@/layout/Header';
 import { Footer } from '@/layout/Footer';
@@ -71,6 +72,7 @@ export default async function RootLayout({
   } = await getDictionary(lang);
 
   const dynamicInfo = await fetchInfo(lang);
+  const gaId = process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID as string;
 
   const { footer, header, orderModal } = common;
 
@@ -90,6 +92,8 @@ export default async function RootLayout({
         />
         <div id="modal" />
       </body>
+
+      <GoogleAnalytics gaId={gaId} />
     </html>
   );
 }
